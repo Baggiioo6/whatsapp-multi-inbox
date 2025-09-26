@@ -1,0 +1,12 @@
+body{ font-family: Inter, Arial; margin:0; }
+.app{ display:flex; height:100vh }
+.sidebar{ width:220px; border-right:1px solid #ddd; padding:12px }
+.sidebar ul{ list-style:none; padding:0 }
+.sidebar li{ padding:8px; cursor:pointer }
+.sidebar li.sel{ background:#eef }
+.main{ flex:1; padding:12px; display:flex; flex-direction:column }
+.messages{ flex:1; overflow:auto; border:1px solid #eee; padding:8px }
+.in{ background:#fff; margin:8px 0; padding:8px; border-left:4px solid #0a74da }
+.out{ background:#fff; margin:8px 0; padding:8px; border-left:4px solid #2cae5b }
+.composer{ display:flex; gap:8px; padding-top:8px }
+.composer input{ flex:1; padding:8px }
